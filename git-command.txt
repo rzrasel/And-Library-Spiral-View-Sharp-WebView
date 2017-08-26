@@ -1,0 +1,42 @@
+git init
+git remote add Android-2017 git@github.com:rzrasel/Android-2017.git
+git checkout -b And-Library-Spiral-View-Sharp-WebView
+git pull https://github.com/rzrasel/And-Library-Spiral-View-Sharp-WebView.git
+git add .
+git commit -m "Add New Project"
+git push https://github.com/rzrasel/And-Library-Spiral-View-Sharp-WebView.gitt --all
+
+
+git pull <remote> <branch>
+git pull https://keyboard.git And-Library-Spiral-View-Sharp-WebView
+
+git push <remote> <branch>
+git push https://keyboard.git
+And-Library-Spiral-View-Sharp-WebView  (NOT WORK)
+
+
+git init
+git remote add origin https://github.com/rzrasel/And-Library-Spiral-View-Sharp-WebView.git
+git remote -v
+git fetch && git checkout master
+git add .
+git commit -m "Add Library Project File"
+git push --all
+
+
+git init
+git remote add origin https://github.com/rzrasel/And-Library-Spiral-View-Sharp-WebView.git
+git remote -v
+git fetch && git checkout And-Library-Spiral-View-Sharp-WebView
+git add .
+git commit -m "Add Readme & Git Commit File"
+git push --all
+
+
+# delete local tag '12345'
+git tag -d 12345
+# delete remote tag '12345' (eg, GitHub version too)
+git push origin :refs/tags/12345
+# alternative approach
+git push --delete origin tagName
+git tag -d tagName

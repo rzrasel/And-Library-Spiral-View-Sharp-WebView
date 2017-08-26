@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndLibrarySpiralViewSharpWebView.iml" filepath="$PROJECT_DIR$/AndLibrarySpiralViewSharpWebView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andlibraryspiralviewsharpwebview/andlibraryspiralviewsharpwebview.iml" filepath="$PROJECT_DIR$/andlibraryspiralviewsharpwebview/andlibraryspiralviewsharpwebview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usagesexample/usagesexample.iml" filepath="$PROJECT_DIR$/usagesexample/usagesexample.iml" />
+    </modules>
+  </component>
+</project>
