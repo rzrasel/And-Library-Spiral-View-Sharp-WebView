@@ -1,7 +1,7 @@
 # And-Library-Spiral-View-Sharp-WebView
 And Library Spiral View Sharp WebView
 
-[![](https://jitpack.io/v/rzrasel/And-Library-Blade-Logger-Log.svg)](https://jitpack.io/#rzrasel/And-Library-Blade-Logger-Log)
+[![](https://jitpack.io/v/rzrasel/And-Library-Spiral-View-Sharp-WebView.svg)](https://jitpack.io/#rzrasel/And-Library-Spiral-View-Sharp-WebView)
 
 ### Installation
 Maven Repositories Installation
@@ -13,6 +13,6 @@ repositories {
 ```
 ```maven dependencies
 dependencies {
-    compile 'com.github.rzrasel:And-Library-Blade-Logger-Log:1.0.0'
+    compile 'com.github.rzrasel:And-Library-Spiral-View-Sharp-WebView:1.0.0'
 }
 ```
