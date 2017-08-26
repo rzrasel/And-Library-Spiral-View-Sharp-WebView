@@ -13,6 +13,7 @@ public class ActSplash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_splash);
         sysSharpWebView = (SharpWebView) findViewById(R.id.sysSharpWebView);
-        sysSharpWebView.onLoadURL("http://jagoron24.com/");
+        //sysSharpWebView.onLoadURL("http://jagoron24.com/");
+        sysSharpWebView.onLoadURL("http://www.prothom-alo.com/");
     }
 }

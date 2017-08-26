@@ -7,8 +7,10 @@ And Library Spiral View Sharp WebView
 Maven Repositories Installation
 
 ```maven repositories
-repositories {
-    maven { url 'https://jitpack.io' }
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
 }
 ```
 ```maven dependencies

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="RzSharpWebView">
+        <attr name="isJavaScriptEnabled" format="boolean" />
+        <attr name="displayZoomControls" format="boolean" />
+        <attr name="isGestureZoomable" format="boolean" />
+        <attr name="isOnResumeReload" format="boolean" />
+        <attr name="isCacheEnabled" format="boolean" />
+    </declare-styleable>
+</resources>

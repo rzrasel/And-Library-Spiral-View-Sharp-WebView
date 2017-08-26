@@ -9,6 +9,10 @@
     <com.rz.sharpwebview.SharpWebView
         android:id="@+id/sysSharpWebView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:displayZoomControls="false"
+        app:isGestureZoomable="true"
+        app:isJavaScriptEnabled="true"
+        app:isOnResumeReload="false" />
 
 </RelativeLayout>
